@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <label for ="uname">Enter Name:</label>
+        <input type="text" name= name1 id="uname" size="20" maxlength="10"placeholder="Enter your first name" value="abc">
+        <br><br>
+        <label for="pass">Enter password:</label>
+        <input type="password" name="name2" id="pass" size="20" maxlength="10" placeholder="Enter password" required>
+        <br><br>
+        <label for="email">Enter email:</label>
+        <input type="email" name="name3" id="email" size="20" maxlength="50" placeholder="Enter email" required>
+        <br><br>
+        <label for="Feedback">Enter feedback:</label>
+        <textarea name="feedback" name="Feedback" rows="17" cols="40"></textarea>
+        <br><br>
+        <label for="hobby">choose hobby</label>
+         <input type="checkbox" name="choose" id="hobby" value="Cook" checked>cooking  
+         <input type="checkbox" name="choose" id="hobby" value="read">reading  
+         <input type="checkbox" name="choose" id="hobby" value="paint">painting
+
+        <br><br>
+        <label for="gender">Choose Gender:</label>
+        <input type="radio" name="gender" id="male" value="male" >male
+        <input type="radio" name="gender" id="female" value="female" checked>female
+        <br><br>
+        <label for="programme">Choose programme:</label>
+        <input type="radio" name="programme" id="Btech" value="Btech">
+        <label for="Btech">BTech</label>
+        <input type="radio" name="programme" id="Mtech" value="Mtech" >
+        <label for="Mtech">MTech</label>
+        <br><br>
+        <label for="state">select state</label>
+        <select name="state" id="state" size="">
+        <option value="bihar" >Bihar</option>
+        <option value="assam" >Assam</option>
+    </select>
+    <br><br>
+    <label for="filesel">Choose file</label>
+    <input type="file" id="filesel" name="filesel" accept=".txt,.pdf,.docx">
+    <br><br>
+    <input type="Reset" name="resetform">
+    <br><br>
+    <input type="image" name="imagebtn" src="">
+
+
+        <br><br>
+        <input type="Submit"name="submit form" id="submitform" value="submit" >
+    </form>
+    
+</body>
+</html>

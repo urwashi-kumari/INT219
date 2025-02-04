@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: pink;
+            border:3 px solid;
+            padding:20px;
+            display:grid;
+            grid-template-columns:auto auto 50;
+            grid-template:100px 200px/ 30% auto auto;
+            /* grid-row-gap:20px; */
+            /* grid-column-gap: 10px; */
+            grid-gap:20px 30px;
+        }
+        .item{
+            border:2px green solid;
+            padding:10px;
+            color:blue;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: aquamarine;
+        }
+        #i1{
+            grid-area :1/1/span 1/span1;
+        }
+        #i2{
+            grid-area:2/1/ span 1/span 4;
+        }
+        #i3{
+            grid-area: 3/1/span 1/span 2;
+        }
+        #i4{
+            grid-area: 3/2/span 1/span 3;
+        }
+        #i5{
+            grid-area:3/3/span 1/span3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">Famous dish of india</div>
+        <div class="item" id="i2">img1 caption</div>
+        <div class="item" id="i3">img2 caption</div>
+        <div class="item" id="i4">img3 caption</div>
+        <div class="item" id="i5">img4 caption</div>
+        <div class="item" id="i6"> img5 caption</div>
+        <div class="item" id="i6">Paragraph</div>
+    </div>
+    
+</body>
+</html>
